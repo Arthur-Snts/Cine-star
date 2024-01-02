@@ -1,6 +1,6 @@
 var r = document.getElementById("redireciona");
 r.addEventListener("click", function(){
-    window.location.href = "https://designweb1v.github.io/designweb1v.io/login"
+    window.location.href = "https://alvesarthur1983.github.io/Cine-star/"
 })
 
 document.getElementById('formulario').addEventListener('submit', function(event) {
