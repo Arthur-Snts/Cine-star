@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;  
+}
+
+body {
+   background-image: url('fundo_site.png' );
+   border-image-repeat: no-repeat;
+}
+
+.pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;  
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#emailError, #senhaError, #dataError {
+    font-size: 10px;
+    font-style: oblique;
+}
+
+.quadro {
+    flex:0.2 1 300px;
+    width: 320px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+ 
+.foto_logo {
+    width: 25%;
+    height: 10vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+ 
+.butao {
+    border-radius: 5px;
+    border: none;
+    width: 50%;
+    height: 4vh;
+    color: white;
+    background-color: #272525;
+    margin-top: 0;
+    padding-top: 0;   
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+ 
+.butao:hover {
+    font-size: 15px;
+}    
+ 
+.c_entrada {
+    height: 3vh;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid white;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.label_entrada {
+    color:  white;  
+    font-weight: 200;
+    font-size: small;
+    margin: 3px;
+    margin-top: 0;
+}
+
+input {
+    outline: none;
+}
+ 
+.entradas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 100px;
+    justify-content: space-between;
+}
+ 
+.texto  {
+    display: inline;
+    color: white;
+    font-size: 10px;
+    font-style: oblique;
+}
+ 
+.texto2 {
+    margin-left: 25px;
+    display: inline;
+    color: white;
+    font-size: 10px;
+    font-style: oblique;
+}
+
+.texto3 {
+    display: inline-block;
+    font-size: medium;
+    color: white;
+    margin-top: 25px;
+    margin-left: 55px;
+}
+
+.botao_registro {
+    display: inline-block;
+    font-style: oblique;
+    font-size: medium;
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+}
+
+.botao_registro:hover {
+    font-size: large;
+}
+
+.quadro2 {
+    display: flex;
+    margin: 10px;
+    background-color: black;
+    height: 10vh;
+    width: 320px;
+    display: block;
+    border-radius: 10px;
+}
+ 
+.conluido{ 
+    display: flex ;
+    width: 100%;
+}
+ 
+ @media screen and (max-width:700px) {
+ 
+         .foto_usuario {
+            width: 35%;
+            height: 15vh;
+        }
+
+         .quadro {
+            flex:0.2 1 200px;
+        }         
+}

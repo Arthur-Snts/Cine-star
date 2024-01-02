@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;  
+   
+}
+
+body {
+   background-image: url('fundo_site.png' );
+   border-image-repeat: no-repeat;
+}
+
+.pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;  
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.quadro {
+    flex:0.2 1 300px;
+    width: 320px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+ 
+.foto_logo {
+    width: 30%;
+    height: 15vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+ 
+.butao {
+    border-radius: 5px;
+    border: none;
+    width: 50%;
+    height: 4vh;
+    color: white;
+    background-color:#272525;   
+    margin-bottom: 10px;
+    margin-left: 42px;
+    margin-top: 20px;
+}
+ 
+.butao:hover {
+    background-color: #484848;   
+    font-size: 15px;
+}  
+
+.entradas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.c_entrada {
+    height: 3vh;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid white;
+    color: white;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+input {
+    outline: none;
+}
+ 
+
+.texto  {
+    display: inline;
+    color: white;
+    font-size: 10px;
+    font-style: oblique;
+}
+ 
+.texto2 {
+    margin-left: 25px;
+    display: inline;
+    color: white;
+    font-size: 10px;
+    font-style: oblique;
+}
+
+.texto3 {
+    display: inline-block;
+    font-size: medium;
+    color: white;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.botao_registro {
+    display: inline-block;
+    font-style: oblique;
+    font-size: medium;
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+}
+
+.botao_registro:hover {
+    font-size: large;
+}
+
+.quadro2 {
+    display: flex;
+    margin: 10px;
+    background-color: black;
+    height: 10vh;
+    width: 320px;
+    display: block;
+    border-radius: 10px;
+}
+ 
+.conluido{ 
+    display: flex ;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+#emailError, #senhaError {
+    font-size: 10px;
+    font-style: oblique;
+}
+ 
+ @media screen and (max-width:700px) {
+ 
+         .foto_usuario {
+            width: 35%;
+            height: 15vh;
+        }
+
+         .quadro {
+            flex:0.2 1 200px;
+        }         
+}

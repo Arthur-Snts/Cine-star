@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('fundo_site.png' );
+    border-image-repeat: no-repeat;
+}
+ 
+.pai {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;  
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.texto-sair {
+    color: white;
+    font-style: oblique;
+    margin-left: -33%;
+}
+
+.quadro-sair {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: black;
+    height: 50vh;
+    width: 20%;
+}
+
+.button-sim, .button-nao {
+    width: 60%;
+    margin: 10px;
+    border: none;
+    height: 3vh;
+    border-radius: 3px;
+}
+
+
+.button-sim:hover, .button-nao:hover {
+    background-color: rgb(175, 172, 172);
+}
+
+.foto_logo {
+    width: 30%;
+    height: 20vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.div-textos-quadro-sair {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30%;
+    margin-top: 20%;
+}
+
+.div-logo-img{
+    margin-top:25% ;
+}
+
+@media screen and (max-width:700px) {
+ 
+    .foto_usuario {
+       width: 35%;
+       height: 15vh;
+   }
+
+    .quadro-sair {
+       flex:0.2 1 200px;
+   }         
+}
+
+
+@media (max-width:1024px) and (min-width:600px){
+    .foto_usuario {
+        width: 35%;
+        height: 15vh;
+    }
+ 
+     .quadro-sair {
+        height: 60vh;
+        flex:0.2 1 200px;
+    }      
+
+} 
+
+@media (max-width:1180px) and (min-width:600px){
+    .foto_usuario {
+        width: 35%;
+        height: 15vh;
+    }
+ 
+     .quadro-sair {
+        flex:0.2 1 200px;
+    }      
+
+} 
+    
