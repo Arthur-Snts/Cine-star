@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+.pai {
+    background-color: rgb(35, 34, 34);
+}
+
+.filmes_c {
+    height: 90vh;
+}
+
+/*Tudo que está aqui está dentro da div 'conteudo-1'*/
+.header {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-header{
+    width: 10%;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; 
+    background-color: transparent;
+    color:white;
+}
+
+.button-header:hover{
+    font-size: 20px;
+}
+
+.ajuste4, .ajuste3, .ajuste5{
+    margin-left: 15px;
+}
+
+.div-button {
+    display: flex;
+    justify-content: center;
+    width: 60%; 
+}
+
+#logo-header {
+    height: 8vh;
+}
+
+.div-logo-img {
+    margin-left: 30px;
+}
+
+.div-input {
+    margin-right: 30px;
+}
+
+.input-header {
+    border-radius: 5px;
+    font-style: oblique;
+    background-color: transparent;
+    color: white;
+}
+
+input {
+    outline: none;
+}
+
+h3 {
+    font-style: oblique;
+}
+
+.paragrafo-carrossel {
+    text-align: justify;
+}
+
+#texto_velozes {
+    width: 30%;
+    margin-bottom: 2%;
+    margin-left: -5%;
+}
+
+#texto_jogos {
+    width: 30%;
+    margin-bottom: 2%;
+    margin-left: -5%;
+
+}
+
+
+
+
+
+/*Tudo que está aqui está dentro da div 'conteudo-2'*/
+
+.div-fila1, .div-fila2, .div-fila3 {
+    display: flex;
+}
+
+.img-filmes-f1, .img-filmes-fila3, .img-series-fila4{
+    height: 50vh;
+    width: 20%;
+    margin: 8px;
+}
+
+.img-filmes-f1:hover, .img-filmes-fila3:hover, .img-series-fila4:hover{
+    height: 55vh;
+    width: 25%;
+}
+
+.paragrafo-rodape {
+    color: white;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient( rgb(35, 34, 34), black)
+}
+
+.div-logos-img {
+    margin-bottom: 10px;
+}
+
+.logos {
+    height: 7vh;
+    margin-top: 25px;
+}
+
+.logos:hover{
+    height: 10vh;
+}
+
+.paragrafo-rodape {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.texto3 {
+    padding-bottom: 30px;
+}
+
+.button-fila1-infantil, .button-fila2-nacionais, .button-fila3-internacionais, .button-fila4-series {
+    background-color:transparent ;
+    color: white;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    font-size: large;
+}
+
+
+.div-button-infantil, .div-button-nacionais, .div-button-series, .div-button-internacionais {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .filmes_c {
+        height: 40vh;
+    }
+
+    .img-filmes-f1, .img-filmes-fila3, .img-series-fila4{
+        height: 20vh;
+        width: 25%;
+    }
+
+    .div-fila1, .div-fila2, .div-fila3{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img-filmes-f1:hover, .img-filmes-fila3:hover, .img-series-fila4:hover{
+        height: 22vh;
+        width: 29%;
+    }
+
+    .div-input {
+        display: none;
+    }
+
+    .div-logo-img {
+        display: none;
+    }
+
+    .div-button {
+        width: 100%; 
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+
+}
+
+@media screen and (min-height: 1000px) {
+    .filmes_c {
+        height: 40vh;
+    }
+
+    .img-filmes-f1, .img-filmes-fila3, .img-series-fila4{
+        height: 20vh;
+        width: 25%;
+    }
+
+    .div-fila1, .div-fila2, .div-fila3{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img-filmes-f1:hover, .img-filmes-fila3:hover, .img-series-fila4:hover{
+        height: 22vh;
+        width: 29%;
+    }
+
+    .div-input {
+        display: none;
+    }
+
+    .div-logo-img {
+        display: none;
+    }
+
+    .div-button {
+        width: 100%; 
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
