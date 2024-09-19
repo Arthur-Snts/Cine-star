@@ -34,17 +34,17 @@ itens.forEach(item =>{
 
 var a = document.getElementById("inicio");
 a.addEventListener("click", function(){
-  window.location.href = "https://alvesarthur1983.github.io/Cine-star/inicial"
+  window.location.href = "https://192.168.0.10/inicial.html"
 })
 var b = document.getElementById("seuperfil");
 b.addEventListener("click", function(){
-    window.location.href = "https://alvesarthur1983.github.io/Cine-star/seuperfil"
+    window.location.href = "https://192.168.0.10/seuperfil.html"
 })
 var c = document.getElementById("categorias");
 c.addEventListener("click", function(){
-    window.location.href = "https://alvesarthur1983.github.io/Cine-star/categorias"
+    window.location.href = "https://192.168.0.10/categorias.html"
 })
 var e = document.getElementById("sair");
 e.addEventListener("click", function(){
-    window.location.href = "https://alvesarthur1983.github.io/Cine-star/sair"
+    window.location.href = "https://192.168.0.10/sair.html"
 })
