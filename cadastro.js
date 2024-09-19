@@ -1,6 +1,6 @@
 var r = document.getElementById("redireciona");
 r.addEventListener("click", function(){
-    window.location.href = "https://alvesarthur1983.github.io/Cine-star/"
+    window.location.href = "https://192.168.0.10/"
 })
 
 document.getElementById('formulario').addEventListener('submit', function(event) {
